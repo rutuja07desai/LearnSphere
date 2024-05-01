@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+	background:#e2e2e2;
+}
+form{
+	width:50%;
+	/*display:flex;*/
+	/*flex-direction:column;*/
+	align-item:center;
+	justify-content:center;
+}

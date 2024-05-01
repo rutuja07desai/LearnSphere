@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+	<h1>register here</h1>
+	<form action="/register" method="post">
+		<label>Username:</label>
+		<input type="text" name="username"  />
+		<br/><br/>
+		<label>Email:</label>
+		<input type="email" name="email"  />
+		<br/><br/>
+		<label>Password:</label>
+		<input type="password" name="pass"  />
+		<br/><br/>
+		<label>Role:</label>
+		Trainer<input type="radio" name="role" value='trainer' />
+		Student<input type="radio" name="role" value='student' />
+		
+		<br/><br/>
+		<button type="submit">Register</button>
+	</form>
+</body>
+</html>
